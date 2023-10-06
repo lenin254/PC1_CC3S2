@@ -11,6 +11,29 @@ class WordGuesserGame
     @wrong_guesses = ''
   end
 
+  def guess(char)
+    if not /[a-z]/i.match?(char)
+      raise ArgumentError
+    end
+    re = Regexp.new(char,"i")
+
+    if re.match?(@word)
+      if not re.match?(@guesses)
+        @guesses.concat(char)
+      else
+        false
+      end
+    else
+      if not re.match?(@wrong_guesses)
+        @wrong_guesses.concat(char)
+      else
+        false
+      end
+      
+    end
+  end
+
+
   attr_accessor :word, :guesses, :wrong_guesses
 
   # You can test it by installing irb via $ gem install irb
