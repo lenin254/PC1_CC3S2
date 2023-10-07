@@ -1,3 +1,7 @@
+El video se encuentra en el siguiente link:
+
+
+
 Wordguesser: a scaffolded (!) ESaaS getting-started assignment
 =============================================================
 
