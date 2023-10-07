@@ -1,6 +1,6 @@
 # El video se encuentra en el siguiente link:
 
-# Link de Heroku
+# Link de la app implementada en Heroku
 
 https://rocky-forest-31131-dbd46eed5067.herokuapp.com/new
 
