@@ -52,14 +52,7 @@ class WordGuesserApp < Sinatra::Base
   # wrong_guesses and word_with_guesses from @game.
   get '/show' do
     ### YOUR CODE HERE ###
-    guessed_letters = game.guessed_letters
-    word_display = game.word_display
-    if game.won?
-      redirect '/win'
-    elsif game.lost?
-      redirect '/lose'
-    end
-
+    
     erb :show # You may change/remove this line
   end
   
