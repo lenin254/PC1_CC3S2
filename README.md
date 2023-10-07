@@ -2,6 +2,8 @@
 
 # Link de Heroku
 
+https://rocky-forest-31131-dbd46eed5067.herokuapp.com/new
+
 Wordguesser: a scaffolded (!) ESaaS getting-started assignment
 =============================================================
 
